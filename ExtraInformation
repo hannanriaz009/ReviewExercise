@@ -1,0 +1,12 @@
+- Made a new react project and  integrated type script init .For this purpose I integrated the webpack dev server in the react app and installed all the required dependencies in order to setup typescript with react.
+- Integrated all the three apis calls i.e users,posts,and albums.I made 3 seperate files for the services of these apis urls and added all the required services there.
+- Imported the get service in component and called the service in the componentDidMount so that whenever component mounts our api calls, we store the data local constatns.
+- Used those local constants to form an array of 30 random objects, which were returned from the get service  and added a type for each object so that we can easily call the delete service.
+- Mapped the array of 30 random objects in  a list format in order to render it on the front end .
+- Added a delete service in each file i.e in a Users.Services.txs file etc.
+- Imported the delete service and used this service in order to perform the delete functionality. Now when the delete button is clicked the delete api is called and the delete service is called and that list item is also deleted from the local array too.
+- Added a select option from where users can select the option of Add or update.
+- Imported services to our component and implemented logic that if Add is selected then the Post services for posts or albums will be called or if Update selected then the put service of posts or albums is called.
+- FinallyI implemented the logic that the data returned after the service of post or update gets added to our array of 30 random objects and gets displayed on the front-end.
+
+
